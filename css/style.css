@@ -1,0 +1,288 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#title {
+    background-color: black;
+    padding: 1% 15% !important;
+}
+.leftcolintro {
+    border-radius: 20px;
+    position: relative;
+}
+.textintro {
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    -webkit-transform: translate(-70%, -40%);
+    -ms-transform: translate(-70%, -40%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+}
+.overlayintro {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 2s ease;
+}
+.leftcolintro:hover .overlayintro {
+    opacity: 1;
+}
+h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+}
+#title p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 60px 0 60px 60px;
+}
+/*NAV-BAR*/
+.navbar {
+    margin: auto;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+.nav-link {
+    padding: 0 20px !important;
+}
+.navbar-nav a {
+    color: white !important;
+}
+.navbar-nav a:hover {
+    border: 3px solid #ff4e00;
+}
+.navbar-brand {
+    margin-right: 0 !important;
+}
+#textnav {
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive !important;
+    border-bottom: 2px solid #ff4e00;
+}
+
+/*Images*/
+.logonav {
+    width: 110px;
+    height: 80px;
+    margin-right: 10px;
+}
+.cablenav {
+    width: 50px;
+    transform: rotate(30deg);
+}
+.imghistory {
+    text-align: center;
+    position: relative;
+}
+.imgproducts {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    border: 2px solid white;
+}
+.imgintrodescription {
+    display: block;
+    width: 80%;
+    border: 2px solid white;
+}
+.btnvideo {
+    font-weight: bold !important;
+    position: absolute; 
+    left: 0;
+    bottom: 0;
+    margin-bottom: 15%;
+    margin-left: 5%;
+}
+.youtubeiconintro {
+    margin: 3px;
+}
+/*Section Content-Products*/
+.containter-content {
+    text-align: center;
+    position: relative;
+}
+#content {
+    padding: 5% 15%;
+}
+#content p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.headphones p {
+    margin-top: 40px;
+}
+.mousepad p {
+    margin-top: 40px;
+}
+/*Images Content-Products*/
+.keyboardandmousecontent {
+    width: 200px;
+    height: 200px;
+}
+.headphonescontent {
+    weight: 200px;
+    height: 200px;
+}
+.mousepadcontent {
+    weight: 200px;
+    height: 200px;
+}
+.electricalimg {
+    position: absolute;
+    width: 400px;
+    top: 80%;
+    left: 80%;
+}
+.electricalimg2 {
+    position: absolute;
+    width: 400px;
+    top: -50%;
+    left: -20%;
+}
+/*Section testimonal and parteners*/
+#testimonials {
+    background-color: black;
+    text-align: center;
+    height: auto;
+}
+#parteners {
+    border-top: 3px solid #ff4e00;
+    background-color: white;
+}
+#testimonials h1 {
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 4rem;
+    color: white;  
+}
+#testimonials p {
+    font-size: 1.5rem;
+    color: white;
+}
+#testimonials em {
+    color: #ff4e00;
+    font-weight: bold;
+}
+.container-parteners {
+    text-align: center;
+}
+.defaultlogopartener {
+    width: 10%;
+    margin: 20px;
+}
+.firstguytestimonial {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.secondguytestimonial {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 5% 15%;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+/*Newsletter*/
+#newsletter {
+    margin: 0 auto;
+    padding: 5% 15%;
+    background-image: url('https://wallup.net/wp-content/uploads/2017/11/17/226658-SteelSeries-748x421.jpg');
+    background-size: cover;
+}
+#newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.content > h2 {
+    color: white;
+    margin-bottom: 50px;
+}
+.fa-envelope-square {
+    background-color: #ff4e00;
+    color: white;
+    padding: 10px 20px;
+}
+.tbox, .subscribebtn {
+    border: none !important;
+    outline: none !important;
+}
+.subscribebtn {
+    border-radius: 0 !important;
+    cursor: pointer;
+    background-color: #ff4e00 !important;
+    color: white !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+}
+.tbox {
+    width: 0px !important;
+    transition: 1s;
+}
+.input-group:hover >.tbox,.tbox:focus {
+    width: 430px !important;
+    padding: 0 10px !important;
+}
+/*Footer*/
+#footer {
+    text-align: center;
+    padding: 1% 15%;
+}
+.containerpolicy {
+    border-left: 1px solid black;
+}
+.packageicon {
+    width: 15%;
+}
+.discounticon {
+    width: 15%;
+}
+.containercontactus {
+    border-left: 1px solid black;
+}
+.containercontactus h3 {
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.containersocialicons {
+    margin-top: 80px;
+}
+.twittericon, .facebookicon, .twitchicon, .instagramicon, .discordicon, .youtubeicon {
+    font-size: 40px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.hovericon:hover {
+    font-size: 45px;
+    transition: 0.5s;
+}
+.contactusbtn {
+    font-weight: bold !important;
+    background-color: black !important;
+    text-align: center;
+}
+/*MEDIA Q*/
+
+@media (max-width: 1028px) {
+    
+}
